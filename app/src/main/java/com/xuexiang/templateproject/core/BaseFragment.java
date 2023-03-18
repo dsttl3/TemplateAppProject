@@ -22,11 +22,9 @@ import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewbinding.ViewBinding;
-
 import com.umeng.analytics.MobclickAgent;
 import com.xuexiang.templateproject.core.http.loader.ProgressLoader;
 import com.xuexiang.xhttp2.subsciber.impl.IProgressLoader;
@@ -39,7 +37,6 @@ import com.xuexiang.xrouter.facade.service.SerializationService;
 import com.xuexiang.xrouter.launcher.XRouter;
 import com.xuexiang.xui.widget.actionbar.TitleBar;
 import com.xuexiang.xui.widget.actionbar.TitleUtils;
-
 import java.io.Serializable;
 import java.lang.reflect.Type;
 
